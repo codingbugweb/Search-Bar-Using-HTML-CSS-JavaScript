@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 0.8s all;
+}
+.color-search {
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+input {
+  caret-color: #aeaeae;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 15px #aeaeae;
+}
